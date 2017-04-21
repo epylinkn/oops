@@ -10,7 +10,7 @@ module Oops
       {
         prerequisites: ['assets:clean', 'assets:precompile'],
         additional_paths: [],
-        includes: ['public/assets', 'public/sitemap.xml.gz'],
+        includes: ['public/assets', 'public/packs', 'public/sitemap.xml.gz'],
         excludes: ['.gitignore'],
         format: 'zip'
       }
